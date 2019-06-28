@@ -20,7 +20,7 @@
 #define ENTSGTK_INCLUDES_H
 
 #include "../Graphics/Headers.h"
-#include "../OPGtk/Headers.h"
+#include "../OPGTK/Headers.h"
 
 
 #endif //ENTSGTK_INCLUDES_H
