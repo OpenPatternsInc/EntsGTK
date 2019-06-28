@@ -1,0 +1,9 @@
+This is pre-alpha untested code. Please use at your own risk.
+
+Licensed under GPLv3
+
+This is a C++ GUI program using gtkmm.
+
+
+
+It consists of a user interface which displays lists of things in 3 different columns. The current focus will be in the center list. The left list is a group which contains the focus. The right list is an example of the focus. The center also has lists of things which are neither super or sub-groups of the focus, including "siblings" and entities with unknown relation to focus.
