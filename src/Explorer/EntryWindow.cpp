@@ -19,7 +19,7 @@
 #include "EntryWindow.h"
 #include "App.h"
 
-using namespace ents_gtkgui;
+using namespace ents_explorer_gtk;
 using namespace std;
 
 EntryWindow::EntryWindow(ents_gui::Explorer& explorer, const std::string& message, void (ents_interface::Interface:: *afterFunction)(const ents_interface::EntryResult&))

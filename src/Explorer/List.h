@@ -26,7 +26,7 @@
 #include "EntryWindow.h"
 #include "EntContextMenu.h"
 
-namespace ents_gtkgui {
+namespace ents_explorer_gtk {
 
     class List : public ents_gui::List, public opgtk::StringList<ents_interface::Interface, ents_interface::Ent> {
 

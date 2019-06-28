@@ -19,7 +19,7 @@
 #ifndef ENTSGTK_OPENERHELPER_H
 #define ENTSGTK_OPENERHELPER_H
 
-namespace ents_gtkgui {
+namespace ents_explorer_gtk {
 
     class Controller;
 

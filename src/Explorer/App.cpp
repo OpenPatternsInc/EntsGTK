@@ -19,7 +19,7 @@
 #include <gtkmm/messagedialog.h>
 #include "App.h"
 
-using namespace ents_gtkgui;
+using namespace ents_explorer_gtk;
 
 
 App::App() = default;

@@ -21,7 +21,7 @@
 #include "Explorer.h"
 #include "App.h"
 
-using namespace ents_gtkgui;
+using namespace ents_explorer_gtk;
 
 Explorer::Explorer(ents_gui::App& app)
         :

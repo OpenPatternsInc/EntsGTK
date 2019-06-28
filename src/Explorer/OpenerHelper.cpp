@@ -19,7 +19,7 @@
 #include "OpenerHelper.h"
 #include "Controller.h"
 
-using namespace ents_gtkgui;
+using namespace ents_explorer_gtk;
 
 OpenerHelper::OpenerHelper() = default;
 

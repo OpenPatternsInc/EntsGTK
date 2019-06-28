@@ -18,7 +18,7 @@
 
 #include "List.h"
 
-using namespace ents_gtkgui;
+using namespace ents_explorer_gtk;
 
 
 List::List(ents_gui::ExplorerInterface& ex) :

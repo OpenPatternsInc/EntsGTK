@@ -30,7 +30,7 @@
 #include "Includes.h"
 #include "List.h"
 
-namespace ents_gtkgui {
+namespace ents_explorer_gtk {
 
 
     //TODO Add a template here for the List subclass, so we can program generically from ents_gui.

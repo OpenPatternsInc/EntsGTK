@@ -27,7 +27,7 @@
 #include "Controller.h"
 #include <thread>
 
-namespace ents_gtkgui {
+namespace ents_explorer_gtk {
 
     //TODO Add a template here so we can code for different types of Explorer and keep pointers to it.
     class App : public Controller {
@@ -42,6 +42,9 @@ namespace ents_gtkgui {
 
         static Glib::RefPtr<App> create();
 
+        /**
+         * Subclasses of Controller are required to
+         */
         void init() override;
 
     private:

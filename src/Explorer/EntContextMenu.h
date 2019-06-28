@@ -21,7 +21,7 @@
 
 #include "Includes.h"
 
-namespace ents_gtkgui {
+namespace ents_explorer_gtk {
 
 //class Explorer;
 

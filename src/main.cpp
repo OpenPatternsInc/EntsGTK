@@ -27,7 +27,7 @@
 #include "Explorer/Includes.h"
 #include "Explorer/App.h"
 
-using namespace ents_gtkgui;
+using namespace ents_explorer_gtk;
 
 int main(int argc, char* argv[]) {
 

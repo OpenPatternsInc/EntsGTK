@@ -31,7 +31,7 @@
 #include "Includes.h"
 //#include "List.h"
 
-namespace ents_gtkgui {
+namespace ents_explorer_gtk {
 
 //Forward declaration.
 //class Explorer;

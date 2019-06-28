@@ -19,7 +19,7 @@
 #include "Controller.h"
 #include "Explorer.h"
 
-using namespace ents_gtkgui;
+using namespace ents_explorer_gtk;
 
 using namespace std;
 

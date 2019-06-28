@@ -25,7 +25,7 @@
 #include "OpenerHelper.h"
 #include "Explorer.h"
 
-namespace ents_gtkgui {
+namespace ents_explorer_gtk {
 
 /**
 * Class to handle the GTK-related stuff in controlling the opening and closing
