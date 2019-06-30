@@ -64,13 +64,20 @@ namespace ents_root {
 
     public:
 
+        /**
+         * Constant to easily change how many characters the UID is.
+         */
         static const int UID_LENGTH = 10;
         /**
          * A unique char array of numbers.
          */
         std::array<char, UID_LENGTH> UID {};
 
+        /**
+         * Create a new Ent with default non-initialized state. Has a UID automatically, but nothing else.
+         */
         Ent();
+
 
         Ent(std::string name, std::array<char, UID_LENGTH> UID);
 

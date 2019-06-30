@@ -26,11 +26,13 @@ using namespace std;
 
 namespace ents_root {
 
+    typedef array<char, Ent::UID_LENGTH> UID_array;
+
     Ent::Ent() : m_parents(), m_children(), m_overlaps(), m_disjoints() {
         generateUID();
     }
 
-    Ent::Ent(string name, array<char, UID_LENGTH> UID) :
+    Ent::Ent(string name, UID_array UID) :
             m_parents(), m_children(), m_overlaps(), m_disjoints(), m_name(move(name)), UID(UID)
     {}
 
