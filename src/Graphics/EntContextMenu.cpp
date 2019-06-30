@@ -30,11 +30,13 @@ void EntContextMenu::init() {
 
     } else if (relation == RELATION::PARENT) {
 
-        this->addItem("Not a parent", nullptr);
+        //TODO Connect to callback when callback is added
+        this->addItem("Remove from parents", nullptr);
 
     } else if (relation == RELATION::CHILD) {
 
-        this->addItem("Not a child", nullptr);
+        //TODO Connect to callback when callback is added
+        this->addItem("Remove from children", nullptr);
 
     } else if (relation == RELATION::UNKNOWN) {
 
@@ -51,6 +53,5 @@ void EntContextMenu::init() {
 
     this->addItem("Rename", &EntContextMenu::onRenameSelected);
     this->addItem("Delete", &EntContextMenu::onDeleteSelected);
-
 
 }
