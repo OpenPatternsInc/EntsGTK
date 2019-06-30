@@ -2,8 +2,21 @@ This is pre-alpha untested code. Please use at your own risk.
 
 Licensed under GPLv3.
 
-This is a C++ GUI program using gtkmm.
+This is a C++ GUI program that manipulates and analyzes Ents database files. The Explorer UI lets the user navigate an Ents hierarchy.
 
-
+(openpatterns.net/ents#)
 
 It consists of a user interface which displays lists of things in 3 different columns. The current focus will be in the center list. The left list is a group which contains the focus. The right list is an example of the focus. The center also has lists of things which are neither super or sub-groups of the focus, including "siblings" and entities with unknown relation to focus.
+
+
+Compilation instructions for Fedora 28:
+
+1. Install g++ with "sudo dnf install gcc-c++"
+
+2. Install gtkmm with "sudo dnf install gtkmm30-devel"
+
+3. Clone project to your filesystem.
+
+4. Navigate in the Terminal to the Directory containing CMakeLists.txt and run "cmake CMakeLists.txt".
+
+5. Running "make" should then generate an executable file.
