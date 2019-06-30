@@ -37,9 +37,8 @@ namespace ents_gui {
 
         //TODO Turn this into a vector so we can have multiple TreeExplorers open at once!
         /**
-         * m_explorer is a private pointer to the instance of Explorer, but saved as a pointer
-         * to an ents_gui::Explorer. Subclasses can get a pointer to the implementation as the
-         * subclass by calling explorer().
+         * m_explorer is a private pointer to the instance of ents_gui::Explorer. Subclasses can get a pointer to the
+         * implementation as the subclass by calling explorer().
          */
         Explorer* m_explorer;
 
@@ -47,14 +46,14 @@ namespace ents_gui {
     public:
 
         /**
-         *
+         * Defining a default constructor.
          */
         App() : m_explorer(nullptr) {
 
         };
 
         /**
-         *
+         * Default destructor. We don't want to delete the data on m_explorer because we might use it somewhere else.
          */
         ~App() override = default;
 
