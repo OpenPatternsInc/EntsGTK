@@ -38,11 +38,6 @@ namespace ents_explorer_gtk {
 
     public:
 
-        //*********************************************
-        //std::promise<std::string> entryPromise;
-        //std::unique_ptr<std::string> entryMessage;
-        //*********************************************
-
         Gtk::MenuBar menuBar;
         Gtk::Menu subMenuTree, subMenuFocus;
         //Items for the Tree menu.

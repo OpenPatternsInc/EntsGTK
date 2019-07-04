@@ -30,6 +30,8 @@ namespace ents_gui {
 
 /**
  * This class is an abstract PopupMenu which will appear when an Ent in an Explorer is right-clicked.
+ *
+ * It is currently generated as needed and then discarded.
  */
     class EntContextMenu : virtual public opgui::PopupMenu {
 
@@ -43,6 +45,9 @@ namespace ents_gui {
 
         EntContextMenu(const ents_interface::Ent &ent, ents_interface::Interface *explorerInstance) : explorer(explorerInstance), ent(ent) { }
 
+        /**
+         * What should happen when the expendable menu is created?
+         */
         void init();
 
         virtual void addItem(std::string text, void (EntContextMenu::*callbackFunction)()) = 0;
