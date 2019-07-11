@@ -25,7 +25,7 @@ using namespace ents_interface;
 
 
 
-Interface::Interface() : renameCandidate(nullptr) {
+Interface::Interface() {
 
     //cout << "ents_interface::Interface constructor ended...\n";
 
