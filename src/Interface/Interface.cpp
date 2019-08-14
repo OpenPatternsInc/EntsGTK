@@ -27,7 +27,7 @@ using namespace ents_interface;
 
 Interface::Interface() {
 
-    //cout << "ents_interface::Interface constructor ended...\n";
+
 
 }
 
